@@ -1,0 +1,39 @@
+{
+  "name": "@gospime/express-boom",
+  "version": "1.0.0",
+  "description": "Express HTTP-friendly error objects from @hapi",
+  "keywords": [
+    "gospime",
+    "express",
+    "boom",
+    "error"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "build": "npm install && npm audit fix",
+    "up": "npm update",
+    "check": "npm outdated",
+    "upgrade": "npm run up && npm run check && npm run build",
+    "push-version": "standard-version",
+    "ls-g": "npm list -g --depth=0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gospime/express-boom.git"
+  },
+  "author": "Oleg Kravchuk <oleg.kravchuk@gospime.com> (https://gospime.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gospime/express-boom/issues"
+  },
+  "homepage": "https://github.com/gospime/express-boom#readme",
+  "devDependencies": {
+    "standard-version": "^7.0.0"
+  },
+  "engines": {
+    "node": ">=10.0.0"
+  },
+  "dependencies": {
+    "@hapi/boom": "^8.0.1"
+  }
+}

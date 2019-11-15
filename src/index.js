@@ -14,5 +14,5 @@ module.exports = (request, response, next) => {
 
   response.boom = boom;
 
-  await next();
+  next();
 };

@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.2](https://github.com/gospime/express-boom/compare/v1.1.1...v1.1.2) (2019-11-15)
+
+
+### Bug Fixes
+
+* fixed error - annot set property "boom" of undefined ([6ae2f1e](https://github.com/gospime/express-boom/commit/6ae2f1e6e36432e337043cf93cb87ef1ca28fa13))
+
 ### [1.1.1](https://github.com/gospime/express-boom/compare/v1.1.0...v1.1.1) (2019-11-15)
 
 

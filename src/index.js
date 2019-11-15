@@ -1,6 +1,6 @@
 const Boom = require('@hapi/boom');
 
-module.exports = (request, response, next) => {
+module.exports = () => (request, response, next) => {
   const boom = {};
 
   const mapper = key => {
